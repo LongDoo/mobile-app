@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "788903604203",
+    "firebase_url": "https://longdoo-9f16b.firebaseio.com",
+    "project_id": "longdoo-9f16b",
+    "storage_bucket": "longdoo-9f16b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788903604203:android:6424a7f04299438a",
+        "android_client_info": {
+          "package_name": "com.longdoo.longdoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788903604203-pqqimegmi7nftsvr46stmrb2bmrkvnfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxSI2cgMblnm39ni-aV39nIiNkFZ5ujiI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
