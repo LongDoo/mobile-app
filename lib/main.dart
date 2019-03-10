@@ -26,7 +26,7 @@ class _AppSplashState extends State<AppSplash> {
       color: Colors.white,
     ),
   );
-  final _bgcolor =Color.fromARGB(255, 116, 9, 0);
+  final _bgcolor = Color.fromARGB(255, 244, 182, 27);
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +37,7 @@ class _AppSplashState extends State<AppSplash> {
       image: Image.asset('assets/splash_icon.png'),
       photoSize: 200.0,
       backgroundColor: _bgcolor,
-      loaderColor: Colors.yellowAccent,
+      loaderColor: Colors.black,
     );
   }
 }
