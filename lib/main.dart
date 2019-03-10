@@ -62,7 +62,7 @@ class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0;
   final _widgetOption  = [
     Text('Index 1: Home'),
-    Text('Index 2: Search'),
+    Text('Index 2: Search'), // TODO : Add search page
     Text('Index 3: Video'),
   ];
 
