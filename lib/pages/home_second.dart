@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
 class NewsSecondPage extends StatelessWidget {
-  final int index;
+  final String title, imgUrl, date, content;
 
-  NewsSecondPage({Key key, this.index}) : super(key: key);
+  NewsSecondPage({Key key, this.title, this.imgUrl, this.date, this.content}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('News'),
+        title: Text(title),
       ),
       body: Center(
-        child: Text(index.toString()),
+        child: Text(content),
       ),
     );
   }
