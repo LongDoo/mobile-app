@@ -26,9 +26,7 @@ class _MainScreenState extends State<MainScreen> {
         centerTitle: true,
         backgroundColor: Colors.black,
       ),
-      body: Container(
-        child: _widgetOption.elementAt(_selectedIndex),
-      ),
+      body: _widgetOption.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.home), title: Text('HOME')),
