@@ -28,7 +28,7 @@ class News {
       title: json['title'] as String,
       imgUrl: json['imgUrl'] as String,
       date: json['date'] as String,
-      content: "https://github.com/LongDoo/mockdb/blob/master/markdown/$json['content']"
+      content: "https://raw.githubusercontent.com/LongDoo/mockdb/master/markdown/$json['content']"
     );
   }
 }
@@ -115,7 +115,7 @@ class NewsListBuilder extends StatelessWidget {
           ],
         ),
         onPressed: () {
-          return null;
+          Navigator.pushNamed(context, '/news', arguments: index);
         },
       )
     ];
@@ -146,7 +146,7 @@ class NewsListBuilder extends StatelessWidget {
           ],
         ),
         onPressed: () {
-          return null;
+          Navigator.pushNamed(context, '/news', arguments: index);
         },
       )
     ];
