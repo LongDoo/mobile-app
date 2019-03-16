@@ -8,6 +8,7 @@ class Main extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: _appname,
+      theme: ThemeData(fontFamily: 'Kanit'),
       home: AppSplash()
     );
   }
