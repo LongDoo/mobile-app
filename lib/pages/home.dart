@@ -81,51 +81,73 @@ class NewsListBuilder extends StatelessWidget {
 
     final List<Widget> _header = <Widget>[
       Padding(
-        padding: EdgeInsets.only(top: 20, left: 30),
+        padding: EdgeInsets.only(top: 20, left: 40, bottom: 10),
         child: Text(
           'Latest News',
           style: TextStyle(
-            fontSize: 24,
+            fontSize: 28,
             fontWeight: FontWeight.w600,
           )
         ),
       ),
-      Padding(
-        padding: EdgeInsets.all(20),
-        child: ClipRRect(
-          borderRadius: BorderRadius.all(Radius.circular(20)),
-          child: Image.network(news.imgUrl),
-        )
-      ),
-      Padding(
-        padding: EdgeInsets.only(left: 20),
-        child: Text(
-          news.title,
-          style: TextStyle(
-            fontSize: 18,
-            fontWeight: FontWeight.bold
-          )
+      RaisedButton(
+        color: Colors.white,
+        elevation: 0.0,
+        child: Column(
+          children: <Widget>[
+            Padding(
+              padding: EdgeInsets.all(20),
+              child: ClipRRect(
+                borderRadius: BorderRadius.all(Radius.circular(20)),
+                child: Image.network(news.imgUrl),
+              )
+            ),
+            Padding(
+              padding: EdgeInsets.only(left: 20),
+              child: Text(
+                news.title,
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w700
+                )
+              ),
+            )
+          ],
         ),
+        onPressed: () {
+          return null;
+        },
       )
     ];
 
     final List<Widget> _content = <Widget>[
-      Padding(
-        padding: EdgeInsets.all(20),
-        child: ClipRRect(
-          borderRadius: BorderRadius.all(Radius.circular(20)),
-          child: Image.network(news.imgUrl),
-        )
-      ),
-      Padding(
-        padding: EdgeInsets.only(left: 20),
-        child: Text(
-          news.title,
-          style: TextStyle(
-            fontSize: 18,
-            fontWeight: FontWeight.bold
-          )
+      RaisedButton(
+        color: Colors.white,
+        elevation: 0.0,
+        child: Column(
+          children: <Widget>[
+            Padding(
+              padding: EdgeInsets.all(20),
+              child: ClipRRect(
+                borderRadius: BorderRadius.all(Radius.circular(20)),
+                child: Image.network(news.imgUrl),
+              )
+            ),
+            Padding(
+              padding: EdgeInsets.only(left: 20),
+              child: Text(
+                news.title,
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w700
+                )
+              ),
+            )
+          ],
         ),
+        onPressed: () {
+          return null;
+        },
       )
     ];
 
