@@ -74,3 +74,14 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
+  fonts:
+    - family: Kanit
+      fonts:
+        - asset: fonts/Kanit-Light.ttf
+          weight: 300
+        - asset: fonts/Kanit-Regular.ttf
+          weight: 400
+        - asset: fonts/Kanit-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Kanit-Bold.ttf
+          weight: 700
