@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 
 class NewsSecondPage extends StatelessWidget {
   final String title, imgUrl, date, content;
@@ -11,9 +12,7 @@ class NewsSecondPage extends StatelessWidget {
       appBar: AppBar(
         title: Text(title),
       ),
-      body: Center(
-        child: Text(content),
-      ),
+      body: Markdown(data: content)
     );
   }
 }
